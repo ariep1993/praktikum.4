@@ -6,121 +6,39 @@ NIM : 312210077
 
 KLS : T1.22.B1
 
-Belajar Struktur kondisi dan perulangan pada Python
-Buat folder dengan nama Praktikum4 lalu didalamnya kita buat dua folder yaitu struktur-kondisi & perulangan dan didalamnya buat file Latihan1.py dan Latihan2.py dimasing masing folder . berikut contohnya :
-NOTE : kalian bebas menamakan folder dan filenya
+# Belajar Struktur kondisi dan perulangan pada Python
+1.Buat folder dengan nama Praktikum4 lalu didalamnya kita buat dua folder yaitu struktur-kondisi & perulangan dan didalamnya buat file Latihan1.py dan Latihan2.py dimasing masing folder . berikut contohnya :
 
-folder
+![folder](https://user-images.githubusercontent.com/115473865/200123966-5d93ed2a-624c-4471-adc6-eaf4dafdf39f.png)
 
-Selanjutnya kita buka file struktur-kondisi > Latihan1.py... lalu isikan codingan berikut :
+2.Selanjutnya kita buka file struktur-kondisi > Latihan1.py... lalu isikan codingan berikut
 
-   # menerima input yang diketik dan menyimpannya didalam variable
- bilanganSatu = input("Masukan bilangan Pertama : ")
- bilanganKedua = input("Masukan bilangan Kedua : ")
+![c9f472a1-4ca5-45df-bf24-53d524408e83](https://user-images.githubusercontent.com/115473865/200124168-51256460-7dd4-4170-930b-64518ed4731a.jpg)Jika sudah lalu kita 
 
- # mengkonversi input string ke integer karena method input() selalu mengembalikan type data string
- bilanganSatu = int(bilanganSatu)
- bilanganKedua = int(bilanganKedua)
+jalankan dengan cara ketikan diterminal yaitu python Latihan1.py !!! perlu diingat kita harus berada didirektor struktur-kondisi. Lalu akan tampil hasilnya seperti dibawah ini
 
- # mengecek untuk menentukan bilangan terbesar dari kedua bilangan
- if bilanganSatu > bilanganKedua:
-     print("Bilangan ", bilanganSatu, "lebih besar dari bilangan", bilanganKedua)
- else:
-     print("Bilangan ", bilanganKedua, "lebih besar dari bilangan", bilanganSatu)
-Jika sudah lalu kita jalankan dengan cara ketikan diterminal yaitu python Latihan1.py !!! perlu diingat kita harus berada didirektor struktur-kondisi. Lalu akan tampil hasilnya seperti dibawah ini
+![struktur-latihan1](https://user-images.githubusercontent.com/115473865/200124218-cf1f8346-85ff-4c2b-a276-4c7131ec0c4d.png)
 
-hasil 1
+3.Selanjutnya kita buka Latihan2.py pada folder struktur-kondisi lalu ketikan codingan berikut :
 
-Selanjutnya kita buka Latihan2.py pada folder struktur-kondisi lalu ketikan codingan berikut :
+![d5ce3c6c-3780-4c1c-a7b5-5bec0903ec0f](https://user-images.githubusercontent.com/115473865/200124360-c46347c3-c9f5-474d-8942-70df8af81a5d.jpg)
 
-     # variable angka untuk menampung jumlah angka yang diinputkan berupa array/list
-   angka = []
-   # variable bilangan untuk menentukan jumlah bilangan yang diinginkan
-   bilangan = input("Masukan jumlah bilangan yang diinginkan : ")
-
-
-   # mengkonversi input string ke integer karena method input() selalu mengembalikan type data string
-   bilangan = int(bilangan)
-
-   print("Program mengurutkan data ")
-
-   # melakukan perulangan berdasarkan jumlah dari variable bilangan
-
-   for i in range(0, bilangan):
-       # melakukan perulangan  input sampai jumlah dari variable bilangan yang sudah ditentukan
-       # misal bilangannya  sama dengan 4 maka akan dimunculkan input 4 kali lalu disimpan di variable => data
-
-       data = int(input("Masukan Bilangan ke-" + str(i+1) + " : "))
-
-       # menambahkan isi dari variable data ke variable angka yang type datanya berupa array
-       # contoh input pertama [3] => input ke-dua [3,5] => input ke-tiga [3,5,2] => input ke-empat[3,5,2,9] dan seterusnya sesuai jumlah variable bilangan
-       angka.append(data)
-
-   # menampilkan hasil program
-   # method sorted() berfungsi untuk mengurutkan nilai dari terkecil ke terbesar,
-   print("Bilangan yang sudah diurutkan dari terkecil ke terbesar", sorted(angka))
 Jika sudah lalu kita jalankan dengan cara ketikan diterminal yaitu python Latihan2.py !!! perlu diingat kita harus berada didirektor struktur-kondisi. Lalu akan tampil hasilnya seperti dibawah ini
 
-hasil 2
+![struktur-latihan2](https://user-images.githubusercontent.com/115473865/200124407-d1b8e25e-9317-46d3-bf3f-7116b671ba03.png)
 
-Selanjutnya kita buka Latihan1.py pada folder perulangan lalu ketikan codingan berikut :
+4.Selanjutnya kita buka Latihan1.py pada folder perulangan lalu ketikan codingan berikut :
 
-   # melakukan perulangan dari 0 sampai 10
-   for i in range(0, 10):
-     # menampilkan variable i , (" " * 3) Artinya menambahkan spasi tiga kali lalu end => yaitu memulai baris baru setelah nilai terakhir
-       print(i, " " * 3,  end='')
+![c4922284-8cd5-4df7-a043-f0d0fbcb92ee](https://user-images.githubusercontent.com/115473865/200124594-e0e76aa4-4e25-4b08-81de-118b9c4e83e3.jpg)
 
-       # melakukan perulangan dari 1 sampai 10
-       for j in range(1, 10):
-           # menampilkan output j + i , (" " * 3) Artinya menambahkan spasi tiga kali lalu end => yaitu memulai baris baru setelah nilai terakhir
-           print(j+i, " " * 3, end='')
-       print()
 Jika sudah lalu kita jalankan dengan cara ketikan diterminal yaitu python Latihan1.py !!! perlu diingat kita harus berada didirektor perulangan. Lalu akan tampil hasilnya seperti dibawah ini
 
-hasil 1
+![perulangan-latihan1](https://user-images.githubusercontent.com/115473865/200124668-dd0884ba-e6f7-4fbf-a5a6-47ff2b8dfe1e.png)
 
-Selanjutnya kita buka Latihan2.py pada folder perulangan lalu ketikan codingan berikut :
+5.Selanjutnya kita buka Latihan2.py pada folder perulangan lalu ketikan codingan berikut :
 
-   # import module random untuk mengenerate angka acak 0.3222...dst
-   from random import random
+![4cebb832-e7ac-45c9-b361-65e35bf4c94a](https://user-images.githubusercontent.com/115473865/200124777-7f4d152d-6e86-4449-ac82-dcf088214ca0.jpg)
 
-   # variable jumlahNilai menampung input masukan lalu diconvert ke integer
-   jumlahNilai = int(input('Masukan jumlah nilai yang ingin dicari : '))
 
-   # variable nilaiRandom & kurangDariNolKomaLima berupa array/list untuk menyimpan data yang diperlukan nanti.
-   nilaiRandom = []
-   kurangDariNolKomaLima = []
-
-   # looping data berdasarkan jumlahNilai,
-   for i in range(0, jumlahNilai):
-       # variable n = menyimpan angka random contoh: 0.9905112793033766
-       n = random()
-
-       # menambahkan n ke variable nilaiRandom
-       # fungsi append() untuk menambahkan data ke dalam variable yang type datanya berupa array/list
-       nilaiRandom.append(n)
-
-       # apakah n < dari 0.5 ? jika iya tampilkan lalu break dan memulai ke angka random selanjutnya
-       while n < 0.5:
-
-           # menambahkan n jika kurang dari 0.5 ke variable kurangDariNolKomaLima
-           kurangDariNolKomaLima.append(n)
-
-           # menampilkan output n
-           print("data ke -", str(i+1), " => ", n)
-           break
-
-   print()
-   # menampilkan output keseluruhan nilai random
-   print("Berikut keseluruhan nilai Random dari total ", jumlahNilai,
-         "yaitu ", nilaiRandom)
-
-   print()
-   # menampilkan output keseluruhan nilai n < 0.5
-   print("Berikut nilai yang kurang dari 0.5 berjumlah ", len(kurangDariNolKomaLima),
-         "yaitu ", kurangDariNolKomaLima)
-Jika sudah lalu kita jalankan dengan cara ketikan diterminal yaitu python Latihan2.py !!! perlu diingat kita harus berada didirektor perulangan. Lalu akan tampil hasilnya seperti dibawah ini
-
-hasil 1
-
-Baik Kurang lebih seperti itu untuk pembelajaran mengenai kondisi dan perulangan pada bahasa pemrogramman python,
+ Jika sudah lalu kita jalankan dengan cara ketikan diterminal yaitu python Latihan2.py !!! perlu diingat kita harus berada didirektor perulangan. Lalu akan tampil hasilnya seperti dibawah ini
+![perulangan-latihan2](https://user-images.githubusercontent.com/115473865/200124842-8ad1b6b9-9362-4138-bda5-2eaf4f99456e.png)
