@@ -7,7 +7,7 @@ NIM : 312210077
 KLS : T1.22.B1
 
 # Belajar Struktur kondisi dan perulangan pada Python
-1.Buat folder dengan nama Praktikum4 lalu didalamnya kita buat dua folder yaitu struktur-kondisi & perulangan dan didalamnya buat file Latihan1.py dan Latihan2.py dimasing masing folder . berikut contohnya :
+1.Buat folder dengan nama Praktikum.4 lalu didalamnya kita buat dua folder yaitu struktur-kondisi & perulangan dan didalamnya buat file Latihan1.py dan Latihan2.py dimasing masing folder . berikut contohnya :
 
 ![folder](https://user-images.githubusercontent.com/115473865/200123966-5d93ed2a-624c-4471-adc6-eaf4dafdf39f.png)
 
